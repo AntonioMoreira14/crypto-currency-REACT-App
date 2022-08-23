@@ -1,0 +1,56 @@
+.dark-info {
+  background-color: #32373A;
+  color: rgb(238, 238, 238);
+}
+
+.coin-title {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 32px;
+}
+
+.info-img {
+  width: 150px;
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.main-price{
+  text-align: center;
+  margin-top: 18px;
+  margin-bottom: 40px;
+  line-height: 52px;
+}
+
+.main-price > h3 {
+  font-size: 28px;
+}
+
+.main-price > h4 {
+  font-size: 22px;
+}
+
+.other-prices, .other-infos {
+  text-align: center;
+  line-height: 35px;
+  padding-bottom: 40px;
+}
+
+.some-prices {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 25px;
+}
+
+.arrow-up {
+    color: green;
+}
+
+.arrow-down {
+  color: red;
+}
+
+
