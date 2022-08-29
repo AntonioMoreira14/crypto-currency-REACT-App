@@ -53,4 +53,8 @@
   color: red;
 }
 
-
+@media screen and (max-width: 414px) {
+  .some-prices {
+    gap: 25px;
+  }
+}

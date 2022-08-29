@@ -54,7 +54,7 @@ function Info(props) {
     return day;
   }
   
-  // Divde API values in 7 Days
+  // Division API values in 7 Days
   let valueDays = info[0]?.sparkline_in_7d.price;
   let group = Math.ceil(valueDays?.length / 7);
   let finalArr = new Array(7).fill('').map((_, i) => valueDays?.slice(i * group, (i + 1) * group))
@@ -133,15 +133,15 @@ function Info(props) {
                 </section>
                 <section className='other-prices'>
                   <div className='some-prices'>       
-                  <div>
+                    <div>
                       <h4>Highest value in 24h</h4>
                       <h3>{info.high_24h} €</h3>
-                  </div>
-                  <div>
+                    </div>
+                    <div>
                       <h4>Lowest value in 24h</h4>
                       <h3>{info.low_24h} €</h3>
-                  </div>  
-                  </div>                                            
+                    </div>  
+                  </div>                                         
                   <h4>Variation in 24h</h4>
                   <h3>{info.price_change_24h} € {info.price_change_24h > 0 ? <i className="arrow-up fa-solid fa-arrow-up"></i> : <i className="arrow-down fa-solid fa-arrow-down"></i>}</h3>
                 </section>      

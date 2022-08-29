@@ -85,6 +85,11 @@ nav.dark .toggler--slider {
   justify-content: flex-end;
 }
 
+@media screen and (max-width: 414px) {
+  .navbar-title {
+    font-size: 14px;
+  }
+}
 
 
 
