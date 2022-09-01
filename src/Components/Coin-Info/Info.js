@@ -129,28 +129,28 @@ function Info(props) {
                 <img src={info.image} alt="" className='info-img'/>
                 <section className='main-price'>
                   <h4>Real-Time Price</h4>
-                  <h3>{info.current_price} €</h3>
+                  <h3>{info?.current_price} €</h3>
                 </section>
                 <section className='other-prices'>
                   <div className='some-prices'>       
                     <div>
                       <h4>Highest value in 24h</h4>
-                      <h3>{info.high_24h} €</h3>
+                      <h3>{info?.high_24h} €</h3>
                     </div>
                     <div>
                       <h4>Lowest value in 24h</h4>
-                      <h3>{info.low_24h} €</h3>
+                      <h3>{info?.low_24h} €</h3>
                     </div>  
                   </div>                                         
                   <h4>Variation in 24h</h4>
-                  <h3>{info.price_change_24h} € {info.price_change_24h > 0 ? <i className="arrow-up fa-solid fa-arrow-up"></i> : <i className="arrow-down fa-solid fa-arrow-down"></i>}</h3>
+                  <h3>{info?.price_change_24h} € {info?.price_change_24h > 0 ? <i className="arrow-up fa-solid fa-arrow-up"></i> : <i className="arrow-down fa-solid fa-arrow-down"></i>}</h3>
                 </section>      
                 <div style={myStyle}>
                   <CanvasJSChart options={options} />
                 </div>
                 <section className='other-infos'>
                   <h4>Market Cap</h4>
-                  <h3>{info.market_cap} €</h3>
+                  <h3>{info?.market_cap} €</h3>
                   <br />
                   <h4>Last update</h4>
                   <h3>{newDayWeek(0)}</h3>
