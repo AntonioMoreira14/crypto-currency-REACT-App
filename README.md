@@ -1,3 +1,6 @@
+--- LIVE VERSION: https://crypto-dashboard-react-pjt.netlify.app/ ----- Will change to a modern layout in the future.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
